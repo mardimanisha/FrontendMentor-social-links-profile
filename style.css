@@ -1,0 +1,120 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--Grey900);
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Inter, sans-serif;
+    color: var(--White);
+}
+
+.card {
+    background-color: var(--Grey800);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+img {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile {
+    margin: 25px;
+}
+
+.profile-name {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 14px;
+}
+
+.location{
+    color: var(--Green);
+    margin-top: -15px;
+}
+
+.bio{
+    margin-bottom: 20px;
+}
+
+.profile-link .btn {
+    display: block;
+    background-color: var(--Grey700);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--White);
+    transition: background-color 0.3s;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.profile-link .btn:hover {
+    background-color: var(--Green);
+    color: black;
+}
+
+/* Mobile Styles (375px) */
+@media (max-width: 375px) {
+    body {
+        padding: 20px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .links .btn {
+        padding: 12px;
+        font-size: 1em;
+        margin: 8px 0;
+    }
+}
+
+/* Desktop Styles (1440px) */
+@media (min-width: 1440px) {
+    .card {
+        width: 400px;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .links .btn {
+        padding: 12px;
+        font-size: 1em;
+    }
+}

@@ -69,7 +69,7 @@ Learning:
 - How to include Google Fonts in your project.
 - Applying the custom fonts to specific elements.
 
-#### 5. Version Control with Git
+#### 4. Version Control with Git
 Understanding the basics of using Git for version control, including initializing a repository, making commits, and pushing changes to a remote repository.
 
 Learning:
@@ -82,7 +82,7 @@ Learning:
 
 Working on the social links profile card project has been a great learning experience, and there are several areas I want to continue focusing on in future projects to refine and perfect my skills:
 
-#### 1. Advanced CSS Techniques
+#### Advanced CSS Techniques
 
 - ##### Flexbox and Grid Layouts: 
 While I have a basic understanding of Flexbox, I want to dive deeper into CSS Grid to create more complex and responsive layouts.

@@ -48,8 +48,8 @@ Understanding the importance of semantic HTML helps in creating accessible and S
 
 Learning:
 
-- Use of semantic tags like <header>, <main>, <footer>, <a> and proper use of headings.
-- Using anchor tags <a> to create links.
+- Use of semantic tags like 'header', 'main', 'footer', 'anchor' and proper use of headings.
+- Using anchor tags to create links.
 - Structuring HTML for readability and maintainability.
 
 #### 2. CSS Styling and Responsive Design
